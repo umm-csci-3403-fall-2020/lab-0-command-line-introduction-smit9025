@@ -1,4 +1,5 @@
-#!/usr/bin/bash
+#!/bin/bash
+
 FILE=$1 #Store name of tgz file inputted
 file="${FILE//.tgz}" #Take stored name of inputted file and remove .tgz from the name
 here=$(pwd) #Stores current path location
